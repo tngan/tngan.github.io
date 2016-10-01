@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>minimalist in mars</title>
+  <subtitle>0 | 1</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2016-10-01T16:56:41.000Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>tngan</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ROS in OSX with Docker - Installation</title>
+    <link href="http://yoursite.com/2016/10/02/Docker-ROS-DockeROS/"/>
+    <id>http://yoursite.com/2016/10/02/Docker-ROS-DockeROS/</id>
+    <published>2016-10-01T16:35:31.000Z</published>
+    <updated>2016-10-01T16:56:41.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Installing ROS in OSX from scratch is a pain. </p>
+<p>The purpose of this setup is to create a boilerplate for the entire robotic development stack. Firstly we pull the official image from the registry, the size of this image is about 825 MB, so it would be better to make a light-weight one later on.</p>
+<p><code>docker pull ros:indigo</code></p>
+<p>or directly running</p>
+<p><code>docker run --name ros-indigo -it ros:indigo</code></p>
+<p>now you have a ROS environment, it works like a charm.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Installing ROS in OSX from scratch is a pain. &lt;/p&gt;
+&lt;p&gt;The purpose of this setup is to create a boilerplate for the entire robotic develop
+    
+    </summary>
+    
+    
+      <category term="docker" scheme="http://yoursite.com/tags/docker/"/>
+    
+      <category term="ROS" scheme="http://yoursite.com/tags/ROS/"/>
+    
+  </entry>
+  
+</feed>
